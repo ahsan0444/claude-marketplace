@@ -1,0 +1,19 @@
+{
+  "name": "Jintech Claude Marketplace",
+  "description": "Internal Claude Code plugins for Jintech Engineering",
+  "maintainer": "ahsan.zaheer@jintech.com",
+  "plugins": [
+    {
+      "name": "jintech-omg-dev",
+      "description": "Full SDLC toolkit for OMG development — /ticket, /implement, /prepr, /pr, /grill-me, /debug + code-review-graph MCP + enforcement hooks",
+      "source": "github:jintech/jintech-omg-dev",
+      "versions": ["1.0.0"],
+      "latest": "1.0.0",
+      "keywords": ["omg", "perl", "sdlc", "jira", "bitbucket", "code-review-graph"],
+      "author": {
+        "name": "Jintech Engineering",
+        "email": "ahsan.zaheer@jintech.com"
+      }
+    }
+  ]
+}
