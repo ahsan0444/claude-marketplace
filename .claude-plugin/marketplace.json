@@ -8,14 +8,14 @@
   "plugins": [
     {
       "name": "jintech-omg-dev",
-      "description": "Full SDLC toolkit for OMG development — /ticket, /implement, /prepr, /pr, /grill-me, /debug + code-review-graph MCP + enforcement hooks",
+      "description": "Full SDLC toolkit for OMG development — /ticket, /implement, /verify, /prepr, /pr, /grill-me, /debug + code-review-graph & product-graph MCP + autonomous verify trust core + enforcement hooks",
       "source": {
         "source": "github",
         "repo": "ahsan0444/jintech-omg-dev"
       },
-      "versions": ["1.0.0", "1.1.0", "1.2.0", "1.2.1", "1.2.2", "1.2.3", "1.2.4"],
-      "latest": "1.2.4",
-      "keywords": ["omg", "perl", "sdlc", "jira", "bitbucket", "code-review-graph"]
+      "versions": ["1.0.0", "1.1.0", "1.2.0", "1.2.1", "1.2.2", "1.2.3", "1.2.4", "1.3.0", "1.3.1"],
+      "latest": "1.3.1",
+      "keywords": ["omg", "perl", "sdlc", "jira", "bitbucket", "code-review-graph", "product-graph", "verify", "agent-os"]
     }
   ]
 }

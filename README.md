@@ -18,7 +18,12 @@ Internal Claude Code plugin marketplace for Jintech Engineering.
 
 | Plugin | Description | Platforms |
 |---|---|---|
-| `jintech-omg-dev` | Full SDLC toolkit for OMG — skills, code-review-graph MCP, hooks | macOS, Windows |
+| `jintech-omg-dev` | Full SDLC toolkit for OMG — skills (`/ticket`, `/implement`, `/verify`, `/prepr`, `/pr`, `/grill-me`, `/debug`), code-review-graph **and** product-graph MCP, the autonomous **verify trust core** (Agent OS), and enforcement hooks | macOS, Windows |
+
+> **Agent OS / `/verify`:** the verify trust core needs a per-machine data home — clone
+> [`jintech-agent-os`](https://github.com/ahsan0444/jintech-agent-os) to `~/.agent-os` and run
+> `/agent-os-setup`. Companion tools (Atlassian plugin, Postgres MCP, etc.) are listed in the
+> [plugin README](https://github.com/ahsan0444/jintech-omg-dev#companion-plugins-mcp-servers--tools).
 
 ---
 
@@ -43,7 +48,8 @@ Internal Claude Code plugin marketplace for Jintech Engineering.
 All plugins in this marketplace are cross-platform. Hook scripts and server bootstraps are written in Python (not bash) so they work natively on both macOS and Windows without Git Bash or WSL.
 
 **Prerequisites on Windows:**
-- Python 3.9+ on PATH (`python3 --version` to verify)
+- Python 3.12+ on PATH (`python3 --version` to verify) — code-review-graph requires 3.12 minimum
+- Node 18+ (for the `/verify` harness)
 - Git for Windows ([git-scm.com](https://git-scm.com/download/win))
 - Claude Code (latest stable)
 
